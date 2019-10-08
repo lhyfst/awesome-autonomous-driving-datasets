@@ -71,7 +71,9 @@ paper:
 
 data format: lidar, stereo
 
-## baidu
+## Baidu Apolloscapes
+
+website link: http://apolloscape.auto/
 
 competition:
 1. scene parsing
@@ -126,3 +128,40 @@ paper:
 
 data format: lidar
 
+## Berkeley DeepDrive BDD100k 
+
+website link: https://bdd-data.berkeley.edu/
+
+paper: 
+1. [BDD100K: A Diverse Driving Video Database with Scalable Annotation Tooling](https://arxiv.org/abs/1805.04687)
+
+data format: video
+
+competetion:
+1. Drivable Area
+2. Road Object Detection
+3. Domain Adaption
+
+## Cityscape Dataset
+
+website link: https://www.cityscapes-dataset.com/
+
+paper: 
+1. [The Cityscapes Dataset for Semantic Urban Scene Understanding](https://arxiv.org/abs/1604.01685)
+2. [The Cityscapes Dataset](https://www.cityscapes-dataset.com/wordpress/wp-content/papercite-data/pdf/cordts2015cvprw.pdf)
+
+competetion:
+1. Pixel-Level Semantic Labeling Task
+2. Instance-Level Semantic Labeling Task
+3. Panoptic Semantic Labeling Task
+
+## comma.ai
+
+website link: https://archive.org/details/comma-dataset
+
+## Oxford’s Robotic Car
+
+website link: https://robotcar-dataset.robots.ox.ac.uk/
+
+paper:
+1. [1 Year, 1000km: The Oxford RobotCar Dataset](https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf)
