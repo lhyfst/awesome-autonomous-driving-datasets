@@ -4,11 +4,10 @@
 > Email: lhyfst@gmail.com<br>
 > All rights reserved
 
-the project is still under development. I will update it very soon.
+the project is still under development. 
 
 ---
 
-Example
 ## KITTI
 website link: http://www.cvlibs.net/datasets/kitti/
 
