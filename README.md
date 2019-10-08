@@ -18,11 +18,11 @@ paper:
 3. [A New Performance Measure and Evaluation Benchmark for Road Detection Algorithms](http://www.cvlibs.net/publications/Fritsch2013ITSC.pdf)
 4. [Object Scene Flow for Autonomous Vehicles](http://www.cvlibs.net/publications/Menze2015CVPR.pdf)
 
-data format: lider, left camera image, right camera image, ...<br>
+data format: lider, stereo
 
 dataset size: ~40G
 
-competitions: 
+competition: 
 1. stereo
 2. flow
 3. sceneflow
@@ -41,11 +41,11 @@ website link: http://semantic-kitti.org/index.html
 paper: 
 [SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences](https://arxiv.org/pdf/1904.01416v1.pdf)
 
-data format: only point cloud
+data format: point cloud
 
 dataset size: ~60G
 
-competitions:
+competition:
 1. semantic segmentation
 2. semantic scene completion
 
@@ -55,20 +55,74 @@ website link: https://level5.lyft.com/dataset/<br>
 paper:
 [Lyft Level 5 AV Dataset 2019](https://level5.lyft.com/dataset/)
 
-data format: nuScences format
+data format: camera, lidar, radar
+
+competition:
+1. 3d object detection
+
 
 ## KAIST URBAN DATA SET
-website link: http://irap.kaist.ac.kr/dataset/<br>
+website link: http://irap.kaist.ac.kr/dataset/
+
+paper:
+1. [Complex Urban Dataset with Multi-level Sensors from Highly Diverse Urban Environments](http://irap.kaist.ac.kr/dataset/papers/IJRR2019_dataset.pdf)
+2. [Road is Enough! Extrinsic Calibration of Non-overlapping Stereo Camera and LiDAR using Road Information](http://irap.kaist.ac.kr/dataset/papers/roadisenough.pdf)
+3. [Complex Urban LiDAR Data Set](http://irap.kaist.ac.kr/dataset/papers/ICRA2018_dataset.pdf)
+
+data format: lidar, stereo
 
 ## baidu
 
-## simulatekitti
+competition:
+1. scene parsing
+2. car instance
+3. lane segmentation
+4. localization
+5. trajectory
+6. detection 
+7. tracking
+8. stereo
+
+
+## Virtual KITTI dataset
+website link: https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds/
+
+paper:
+1. [ Back to Publications Virtual Worlds as Proxy for Multi-Object Tracking Analysis](https://europe.naverlabs.com/wp-content/uploads/ultimatemember/temp/2015-085.pdf)
+
+dataset size: ~30G
+
 
 ## nuscenes
 
-## A\*3D Dataset
-https://arxiv.org/abs/1909.07541
+website link: https://www.nuscenes.org
 
-## Virtual KITTI dataset
-https://europe.naverlabs.com/Research/Computer-Vision/Proxy-Virtual-Worlds/
-...
+paper:
+1. [nuScenes: A multimodal dataset for autonomous driving](https://arxiv.org/abs/1903.11027)
+
+data format: camera, lidar, radar
+
+competetion:
+1. object detection
+2. tracking
+
+
+## A\*3D Dataset
+
+website link: https://github.com/I2RDL2/ASTAR-3D
+
+paper:
+1. [A\*3D Dataset: Towards Autonomous Driving in Challenging Environments](https://arxiv.org/pdf/1909.07541.pdf)
+
+data format: lidar, image
+
+
+## H3D
+
+website link: https://usa.honda-ri.com/h3d
+
+paper:
+1. [The H3D Dataset for Full-Surround 3D Multi-Object Detection and Tracking in Crowded Urban Scenes](https://usa.honda-ri.com/documents/32932/126732/h3d_paper.pdf/6d92fba0-06f8-6a12-5d71-b6feb9ba0842)
+
+data format: lidar
+
